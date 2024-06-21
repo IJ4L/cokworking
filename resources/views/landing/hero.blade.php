@@ -42,18 +42,18 @@
             <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
                 fill="currentColor"></path>
         </svg>
-        <div class="bg-white w-full h-10 -mt-px"></div>
+        <div class="bg-white w-full h-5 -mt-px"></div>
     </div>
 </div>
-<div class="max-w-4xl mx-auto">
-    <h1 class="text-center mb-6 text-gray-400 font-medium">Trusted by 5,000+ Companies Worldwide</h1>
-    <div class="grid grid-cols-3 lg:grid-cols-6 gap-4 justify-items-center">
-        <img class="h-7" src="{{ asset('images/company/google.svg') }}">
-        <img class="h-7" src="{{ asset('images/company/netflix.svg') }}">
-        <img class="h-7" src="{{ asset('images/company/airbnb.svg') }}">
-        <img class="h-7 transform translate-y-2" src="{{ asset('images/company/amazon.svg') }}">
-        <img class="h-7" src="{{ asset('images/company/facebook.svg') }}">
-        <img class="h-7" src="{{ asset('images/company/grab.svg') }}">
+<div class="max-w-2xl mx-auto">
+    <h1 class="text-center mb-6 text-gray-400 font-medium">Same product from this brand</h1>
+    <div class="grid grid-cols-3 lg:grid-cols-6  justify-items-center">
+        <img class="h-12" src="{{ asset('images/product/tropicanaslim.png') }}">
+        <img class="h-10" src="{{ asset('images/product/hilo.png') }}">
+        <img class="h-10" src="{{ asset('images/product/nutrisari.jpg') }}">
+        <img class="h-10" src="{{ asset('images/product/lmen.png') }}">
+        <img class="h-10" src="{{ asset('images/product/wdank.png') }}">
+        <img class="h-10" src="{{ asset('images/product/lokalate.png') }}">
     </div>
 </div>
 {{-- Hero --}}

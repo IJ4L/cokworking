@@ -22,7 +22,25 @@
 
     @include('landing.hero')
 
+    @include('landing.info')
+
+    @include('landing.core')
+
+    @include('landing.gallery')
+
+    <div class="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-hidden">
+
+        @include('landing.place')
+
+        @include('landing.testimonial')
+
+    </div>
+
+    @include('landing.footer')
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
     <script>
         AOS.init();
     </script>
