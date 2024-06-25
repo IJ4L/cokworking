@@ -1,6 +1,6 @@
 <div class="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden overflow-hidden">
     <div data-aos="flip-up" class="max-w-xl mx-auto text-center mt-24">
-        <h1 class="font-bold text-darken my-3 text-2xl">Core<span class="text-yellow-500">Function</span>
+        <h1 class="font-bold text-darken my-3 text-2xl">Core<span class="text-orange">Function</span>
         </h1>
         <p class="leading-relaxed text-gray-500">Core functions are built-in functions provided by the programming
             language or framework. These functions do not require additional libraries or modules to be accessed.</p>
@@ -15,7 +15,7 @@
                         fill="white" />
                 </svg>
             </div>
-            <h1 class="font-medium text-center text-xl mb-3 lg:px-14 text-darken">Connect.</h1>
+            <h1 class="font-medium text-center text-xl mb-3 lg:px-14 text-darken">Connect</h1>
             <p class="px-4 text-gray-500 text-center">Connecting
                 communities,
                 organizations and
@@ -65,7 +65,7 @@
                         fill="#F5F5FC" />
                 </svg>
             </div>
-            <h1 class="font-medium text-xl mb-3 lg:px-14 text-darken">Collaborate.</h1>
+            <h1 class="font-medium text-xl mb-3 lg:px-14 text-darken">Collaborate</h1>
             <p class="px-4 text-gray-500">Accelerate
                 collaborations between
                 partners providing
@@ -82,7 +82,7 @@
                         fill="white" />
                 </svg>
             </div>
-            <h1 class="font-medium text-xl lg:px-8 text-darken mb-3">Innovate.</h1>
+            <h1 class="font-medium text-xl lg:px-8 text-darken mb-3">Innovate</h1>
             <p class="px-4 text-gray-500">Enhancing
                 projects/programs
                 between partners to

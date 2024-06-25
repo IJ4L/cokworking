@@ -1,8 +1,8 @@
-<div class="lg:h-screen md:pl-10 items-center mt-24 flex flex-col-reverse md:flex-row md:space-x-10">
+<div class=" md:pl-10 md:mb-20 lg:pl-28 items-center flex flex-col-reverse md:flex-row md:space-x-10">
     <div id="controls-carousel" class="relative w-full" data-carousel="static">
-        <div class="relative overflow-hidden rounded-lg h-screen md:h-96 md:mx-10">
+        <div class="relative overflow-hidden rounded-lg h-screen md:h-96">
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="flex flex-col md:flex-row items-center justify-between md:pr-10 lg:pr-44">
                     <div data-aos="zoom-in-right" class="md:w-5/12">
                         <div class="flex items-center space-x-20 mb-5">
                             <span class="border border-gray-300 w-14 absolute"></span>

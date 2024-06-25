@@ -1,9 +1,8 @@
-{{--  Navbar --}}
-<div x-data="{ open: false }" class="w-full text-gray-700 bg-cream">
+<div x-data="{ open: false }" class="w-full text-gray-700 bg-cream relative">
     <div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
         <div class="flex flex-row items-center justify-between py-2">
-            <div class="relative pt-10">
-                <img class="h-12" src="{{ asset('images/logo.png') }}" alt="logo">
+            <div class="relative pt-10 font-bold text-xl">
+                Nutrihub <span class="text-red-400 text-lg font-light italic">Makassar</span>
             </div>
             <button class="rounded-lg mt-8 md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -21,12 +20,13 @@
             <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
                 href="#">Home</a>
             <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
-                href="#">Event & Collaborations</a>
+                href="#event">Event & Collaborations</a>
             <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
-                href="#">Reservation Room</a>
+                href="#reservation">Reservation Room</a>
             <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline"
-                href="#">Contact</a>
+                href="#contact">Contact</a>
         </nav>
     </div>
+    <img class="absolute hidden lg:flex bottom-0 top-0 left-0 size-56" src="{{ asset('images/utils/daun.png') }}"
+        alt="daun">
 </div>
-{{--  Navbar --}}

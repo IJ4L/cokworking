@@ -13,6 +13,7 @@
     <!-- Poppins font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     @vite('resources/css/app.css')
 </head>
 
@@ -28,7 +29,7 @@
 
     @include('landing.gallery')
 
-    <div class="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-hidden">
+    <div class="container px-4 lg:px-8 mx-auto text-gray-700 overflow-hidden">
 
         @include('landing.place')
 
@@ -36,7 +37,7 @@
 
     </div>
 
-    @include('landing.footer')
+    @include('partials.footer')
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>

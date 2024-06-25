@@ -1,12 +1,12 @@
-<footer class="w-full">
+<footer id="contact" class="w-full bg-[#374151] pt-10 relative">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="w-full flex flex-col lg:flex-row justify-between">
             <div class=" mb-10 lg:col-span-2 lg:mb-0">
-                <p class="py-4 text-sm text-gray-500 font-bold lg:max-w-xs text-center lg:text-left">
+                <p class="py-4 text-sm text-white font-bold lg:max-w-xs text-center lg:text-left">
                     Contact NutriHub Makassar</p>
-                <p class="pb-4 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
+                <p class="pb-4 text-sm text-white lg:max-w-xs text-center lg:text-left">
                     Jl. Palaraya No.331, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28289, Indonesia</p>
-                <p class="pb-4 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
+                <p class="pb-4 text-sm text-white lg:max-w-xs text-center lg:text-left">
                     nutrihubpekanbaru@gmail.com</p>
             </div>
             <div class="relative w-full lg:w-1/2 mb-10 h-40">
@@ -18,7 +18,7 @@
         </div>
         <div class="py-7 border-t border-gray-200">
             <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-                <span class="text-sm text-gray-500 ">©<a href="https://pagedone.io/">Nutrihub</a> 2024, All rights
+                <span class="text-sm text-white ">©<a href="https://pagedone.io/">Nutrihub</a> 2024, All rights
                     reserved.</span>
                 <div class="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                     <a href="javascript:;"
@@ -52,4 +52,5 @@
             </div>
         </div>
     </div>
+    <img class="absolute bottom-0 right-0 size-52 rotate-180" src="{{ asset('images/utils/daun.png') }}" alt="daun">
 </footer>

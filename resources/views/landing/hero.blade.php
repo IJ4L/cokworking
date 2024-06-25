@@ -12,10 +12,10 @@
                 nutritious life through health, education and green pillars.</p>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700"
                 class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
-                <button
-                    class="lg:mx-0 bg-yellow-500 text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+                <a href="/reservation"
+                    class="lg:mx-0 bg-orange text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
                     Get in touch
-                </button>
+                </a>
                 <div
                     class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
                     <button class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
