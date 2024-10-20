@@ -1,4 +1,3 @@
-{{-- Hero --}}
 <div class="bg-cream">
     <div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:pt-28 lg:pb-28 lg:flex-row items-start">
         <div class="flex flex-col w-full lg:w-6/12 justify-center  items-start text-center lg:text-left mb-5 md:mb-0">
@@ -12,7 +11,7 @@
                 nutritious life through health, education and green pillars.</p>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700"
                 class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
-                <a href="/reservation"
+                <a href="/reservations"
                     class="lg:mx-0 bg-orange text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
                     Get in touch
                 </a>
