@@ -13,18 +13,18 @@ class RoomSeeder extends Seeder
         $rooms = [
             [
                 'name' => 'Room A',
-                'capacity' => 10,
-                'description' => 'Ruangan kecil untuk pertemuan hingga 10 orang.',
+                'capacity' => 25,
+                'description' => 'Ruangan kecil untuk pertemuan hingga 25 orang.',
             ],
             [
                 'name' => 'Room B',
-                'capacity' => 20,
-                'description' => 'Ruangan sedang untuk pertemuan hingga 20 orang.',
+                'capacity' => 60,
+                'description' => 'Ruangan sedang untuk pertemuan hingga 60 orang.',
             ],
             [
                 'name' => 'Room C',
-                'capacity' => 30,
-                'description' => 'Ruangan besar untuk pertemuan hingga 30 orang.',
+                'capacity' => 15,
+                'description' => 'Ruangan besar untuk pertemuan hingga 15 orang.',
             ],
         ];
 

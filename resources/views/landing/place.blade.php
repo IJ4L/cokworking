@@ -7,15 +7,19 @@
     </div>
     <div data-aos="fade-up"
         class="flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
-        <div id="1" class="card relative md:w-5/12 cursor-pointer" onclick="showTable('1', 'table')">
+        <div id="1" class="card relative md:w-5/12 cursor-pointer" data-tooltip="Outdoor Room"
+            onclick="showTable('1', 'table')">
             <img class="rounded-2xl md:h-72 object-cover" src="{{ asset('images/outdoor.jpg') }}" alt="">
         </div>
-        <div id="2" class="card relative md:w-5/12 cursor-pointer" onclick="showTable('2', 'table')">
+        <div id="2" class="card relative md:w-5/12 cursor-pointer" data-tooltip="Indoor Room"
+            onclick="showTable('2', 'table')">
             <img class="rounded-2xl md:h-72 object-cover" src="{{ asset('images/indoor_2.jpg') }}" alt="">
         </div>
-        <div id="3" class="card relative md:w-5/12 cursor-pointer" onclick="showTable('3', 'table')">
+        <div id="3" class="card relative md:w-5/12 cursor-pointer" data-tooltip="Studio Room"
+            onclick="showTable('3', 'table')">
             <img class="rounded-2xl md:h-72 object-cover" src="{{ asset('images/studio.jpg') }}" alt="">
         </div>
+
     </div>
 
     <div id="table" class="hidden mt-4">
@@ -51,19 +55,27 @@
                 </div>
             </div>
             <div class="md:py-8 py-5 md:px-16 px-5 dark:bg-gray-700 bg-gray-50 rounded-b relative">
-                <div class="absolute -top-4 -right-3 h-8 w-8 bg-red-nut rounded-full cursor-pointer"
-                    onclick="showCards('table')"></div>
+                <div class="absolute -top-4 -right-3 h-8 w-8 bg-red-nut rounded-full cursor-pointer flex justify-center items-center"
+                    onclick="showCards('table')">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </div>
                 <div class="px-4">
                     <p id="clickedDateDisplay" class="mt-5"></p>
-                    <div id="reservationsDisplay" class="mt-4"></div> <!-- Area untuk menampilkan reservasi -->
+                    <div id="reservationsDisplay" class="mt-4"></div>
                 </div>
             </div>
+
+
         </div>
     </div>
 
     <script>
         let selectedCardId = null;
-        const reservationsData = @json($reservations); // Pass reservations data to JS
+        const reservationsData = @json($reservations);
 
         function showTable(clickedCardId, tableId) {
             selectedCardId = clickedCardId;

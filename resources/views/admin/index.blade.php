@@ -28,7 +28,7 @@
 
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">
             <table class="w-full text-sm text-left text-gray-500">
-                <thead class="text-xs text-gray-700 uppercase bg-blue-100">
+                <thead class="text-xs text-gray-700 uppercase bg-yellow-100">
                     <tr>
                         <th scope="col" class="px-6 py-3">No</th>
                         <th scope="col" class="px-6 py-3">Customer Name</th>
@@ -96,6 +96,9 @@
                     @endif
                 </ul>
             </nav>
+
+            <div class="bg-red-500 w-52 h-10 flex items-center justify-center rounded-lg mt-10 text-white pb-3">Testin</div>
+
             </class=>
     </main>
 
