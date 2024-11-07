@@ -8,7 +8,7 @@
         <ul class="space-y-2 font-medium">
             <li>
                 <a href="{{ route('admin.index') }}"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700 group {{ request()->is('admin') ? 'bg-primary text-white  hover:bg-primary' : 'hover:bg-gray-100' }}">
+                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700 group {{ request()->is('admin') ? 'bg-blue-400 text-white  hover:bg-primary' : 'hover:bg-gray-100' }}">
                     <svg class="w-4 h-4 transition duration-75 dark:text-gray-400 text-gray-900 dark:group-hover:text-white"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
                         <path
@@ -21,7 +21,7 @@
             </li>
             <li>
                 <a href="{{ route('admin.events') }}"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700 group {{ request()->is('admin/events') ? 'bg-primary text-white hover:bg-primary' : 'hover:bg-gray-100' }}">
+                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700 group {{ request()->is('admin/events') ? 'bg-blue-400 text-white hover:bg-primary' : 'hover:bg-gray-100' }}">
                     <svg class="w-4 h-4 transition duration-75 dark:text-gray-400 text-gray-900 dark:group-hover:text-white"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
                         <path
@@ -32,7 +32,7 @@
             </li>
             <li>
                 <a href="{{ route('admin.testimonials') }}"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700 group {{ request()->is('admin/testimonials') ? 'bg-primary text-white  hover:bg-primary' : 'hover:bg-gray-100' }}">
+                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700 group {{ request()->is('admin/testimonials') ? 'bg-blue-400 text-white  hover:bg-primary' : 'hover:bg-gray-100' }}">
                     <svg class="w-4 h-4 transition duration-75 dark:text-gray-400 text-gray-900 dark:group-hover:text-white"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path

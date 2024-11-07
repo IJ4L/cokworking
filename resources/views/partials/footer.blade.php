@@ -5,7 +5,7 @@
                 <p class="py-4 text-sm text-white font-bold lg:max-w-xs text-center lg:text-left">
                     Contact NutriHub Makassar</p>
                 <p class="pb-4 text-sm text-white lg:max-w-xs text-center lg:text-left">
-                    Jl. Palaraya No.331, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28289, Indonesia</p>
+                    Jl. Lagaligo No.32, Mangkura, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90114</p>
                 <p class="pb-4 text-sm text-white lg:max-w-xs text-center lg:text-left">
                     nutrihubpekanbaru@gmail.com</p>
             </div>
