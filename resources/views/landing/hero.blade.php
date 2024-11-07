@@ -25,7 +25,8 @@
                             </path>
                         </svg>
                     </button>
-                    <span class="cursor-pointer">Unduh company profile</span>
+                    <a href="https://open.spotify.com/show/3EXweXBSKTMw1Mco9MzdlC?si=rb2cy7kXQBWaVkUmzETSXQ%0A">Podcast
+                        Nutrihub</a>
                 </div>
             </div>
         </div>

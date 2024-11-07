@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    @vite('resources/css/admin.css')
+
     <title>admin</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    @vite('resources/css/app.css')
 </head>
 
 <body>
@@ -30,11 +31,9 @@
     </main>
     </div>
 
-    {{-- <img class="absolute bottom-0 right-0 size-48 -rotate-180" src="{{ asset('images/utils/daun.png') }}" alt="daun"> --}}
     </main>
 
     @stack('scripts')
-    {{-- @include('sweetalert::alert', ['cdn' => 'https://cdn.jsdelivr.net/npm/sweetalert2@9']) --}}
 </body>
 
 </html>
