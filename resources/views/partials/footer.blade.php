@@ -6,8 +6,7 @@
                     Contact NutriHub Makassar</p>
                 <p class="pb-4 text-sm text-white lg:max-w-xs text-center lg:text-left">
                     Jl. Lagaligo No.32, Mangkura, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90114</p>
-                {{-- <p class="pb-4 text-sm text-white lg:max-w-xs text-center lg:text-left">
-                    nutrihubpekanbaru@gmail.com</p> --}}
+
             </div>
             <div class="relative w-full lg:w-1/2 mb-10 h-40">
                 <iframe class="absolute top-0 left-0 w-full h-full"
