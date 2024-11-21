@@ -16,3 +16,8 @@ Route::get('/admin/testimonials', [AdminController::class, 'testimonial'])->name
 
 Route::resource('events', EventController::class);
 Route::resource('testimonials', TestimonialController::class);
+
+Route::get('/generate', function(){
+  \Illuminate\Support\Facades\Artisan::call('storage:link');
+  echo 'ok';
+});
