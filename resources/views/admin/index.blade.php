@@ -97,8 +97,6 @@
                 </ul>
             </nav>
 
-            <div class="bg-red-500 w-52 h-10 flex items-center justify-center rounded-lg mt-10 text-white pb-3">Testin</div>
-
             </class=>
     </main>
 

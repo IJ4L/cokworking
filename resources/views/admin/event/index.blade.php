@@ -33,7 +33,7 @@
             @csrf
             <div class="flex items-center justify-between px-8">
                 <p class="text-lg font-bold">Events & Collaborations</p>
-                <button type="submit" class="px-4 py-2 bg-primary text-white rounded-md">Simpan</button>
+                <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md">Simpan</button>
             </div>
             <div class="border-b border-b-borderPrimary w-full my-4"></div>
             <div class="px-4">

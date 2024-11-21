@@ -27,6 +27,7 @@ class ReservationSeeder extends Seeder
                 'organisation' => $organisationId, 
                 'email' => 'user' . $i . '@example.com',
                 'organization_id' => $organisationId, 
+                'created_at' => Carbon::now(),
             ];
         }
 

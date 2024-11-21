@@ -5,7 +5,7 @@
         <div class="flex items-start justify-between mt-24">
             <h1 class="text-xl font-bold">Testimonials</h1>
             <a href="{{ route('testimonials.create') }}"
-                class="inline-flex items-center justify-center h-full py-3 text-base font-bold text-white rounded-md bg-primary w-36">
+                class="inline-flex items-center justify-center h-full py-3 text-base font-bold text-white rounded-md bg-blue-500 w-40">
                 Add Testimonial
             </a>
         </div>

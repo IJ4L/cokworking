@@ -4,18 +4,15 @@
     <main class="p-7 bg-backgroundPrimary min-h-screen w-full mt-[70px]">
         <div class="flex items-center justify-between">
             <div class="flex items-center">
-                <a href="{{ route('testimonials.index') }}" class="px-4 text-[30px]">←</a>
+                {{-- <a href="{{ route('testimonials.index') }}" class="px-4 text-[30px]">←</a> --}}
                 <p class="text-3xl font-bold">Add Testimonial</p>
             </div>
             <div class="flex gap-2">
                 <button type="submit" form="form"
-                    class="inline-flex justify-center h-full py-3 text-base font-bold text-white rounded-md bg-primary w-36">
+                    class="inline-flex justify-center h-full py-3 text-base font-bold text-white rounded-md bg-blue-500 w-36">
                     <p class="-mb-[2px]">Add</p>
                 </button>
-                <a href="#"
-                    class="inline-flex justify-center h-full py-3 text-base font-bold text-white bg-red-500 rounded-md w-36">
-                    <p class="-mb-[2px]">Delete</p>
-                </a>
+
             </div>
         </div>
 

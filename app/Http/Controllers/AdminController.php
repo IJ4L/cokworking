@@ -37,13 +37,11 @@ class AdminController extends Controller
 
         $organizations = Organization::all();
 
-        $query = Reservation::with(['room', 'organization']);
+        $reservations = Reservation::with(['room', 'organization'])->orderBy('id', 'desc')->paginate(10);
 
         if ($request->has('organization_id') && $request->organization_id != '') {
             $query->where('organization_id', $request->organization_id);
         }
-
-        $reservations = $query->paginate(10);
 
         return view('admin.index', compact('reservationCounts', 'totalReservations', 'reservations', 'organizations'));
     }
