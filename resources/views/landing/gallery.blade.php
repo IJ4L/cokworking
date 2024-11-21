@@ -29,7 +29,7 @@
                     <svg class="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 1 1 5l4 4" /> 
+                            d="M5 1 1 5l4 4" />
                     </svg>
                     <span class="sr-only">Previous</span>
                 </span>
@@ -64,7 +64,7 @@
             if (category === 'events') {
                 item.classList.toggle('hidden', item.classList.contains('collaboration'));
                 eventButton.classList.add('bg-orange');
-                collaborationButton.classList.remove('bg-orange');
+                collaborationButton.classList.remove('bg-red');
             } else {
                 item.classList.toggle('hidden', item.classList.contains('event'));
                 collaborationButton.classList.add('bg-orange');

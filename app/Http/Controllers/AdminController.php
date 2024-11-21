@@ -20,7 +20,7 @@ class AdminController extends Controller
                 $query->where('name', 'Komunitas');
             })->count(),
             'Bisnis'           => Reservation::whereHas('organization', function ($query) {
-                $query->where('name', 'Bisnis');
+                $query->where('name', 'Bisnis / UMKM');
             })->count(),
             'Instansi'         => Reservation::whereHas('organization', function ($query) {
                 $query->where('name', 'Instansi');
@@ -29,7 +29,7 @@ class AdminController extends Controller
                 $query->where('name', 'Media');
             })->count(),
             'Other'            => Reservation::whereHas('organization', function ($query) {
-                $query->whereNotIn('name', ['Komunitas', 'Perguruan Tinggi']);
+                $query->whereNotIn('name', ['Komunitas', 'Perguruan Tinggi', 'Bisnis / UMKM', 'Instansi', 'Media']);
             })->count(),
         ];
 
@@ -37,13 +37,11 @@ class AdminController extends Controller
 
         $organizations = Organization::all();
 
-        $query = Reservation::with(['room', 'organization']);
+        $reservations = Reservation::with(['room', 'organization'])->paginate(10);
 
         if ($request->has('organization_id') && $request->organization_id != '') {
             $query->where('organization_id', $request->organization_id);
         }
-
-        $reservations = $query->paginate(10);
 
         return view('admin.index', compact('reservationCounts', 'totalReservations', 'reservations', 'organizations'));
     }

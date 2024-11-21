@@ -6,7 +6,7 @@
             language or framework. These functions do not require additional libraries or modules to be accessed.</p>
     </div>
     <div class="grid md:grid-cols-3 gap-14 md:gap-5 mt-20 mb-10">
-        <div data-aos="fade-up" class="bg-white shadow-xl p-6 te  xt-center rounded-xl">
+        <div data-aos="fade-up" class="bg-white shadow-xl p-6 te xt-center">
             <div style="background: #5B72EE;"
                 class="rounded-full w-16 h-16 flex items-center justify-center mx-auto shadow-lg transform -translate-y-12">
                 <svg class="w-6 h-6 text-white" viewBox="0 0 33 46" fill="none" xmlns="http://www.w3.org/2000/svg">

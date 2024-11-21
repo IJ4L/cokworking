@@ -16,8 +16,11 @@
 <body>
     <div class="min-h-screen p-6 bg-gray-100 flex items-center justify-center relative">
         <div class="container max-w-screen-lg mx-auto">
-            <h2 class="font-semibold text-xl text-gray-600 mb-6">Rsvp <span class="text-red-600">Nutrihub</span>
-                Makassar</h2>
+            <div class="flex items-center mb-2">
+                <a href="{{ route('landing.page') }}" class="pr-4 text-[30px]">←</a>
+                <h2 class="font-semibold text-xl text-gray-600">Rsvp <span class="text-red-600">Nutrihub</span>
+                    Makassar</h2>
+            </div>
 
             <!-- Notification Section -->
             @if (session('success'))

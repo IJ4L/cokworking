@@ -36,7 +36,7 @@ class ReservationController extends Controller
         );
     
         if ($availableRooms->isEmpty()) {
-            return back()->withErrors(['message' => 'No available rooms found.']);
+            return redirect()->back()->with('error', 'No available rooms for the requested date and time. or the room capacity is not enough for the attendees.');
         }
     
         $room = $availableRooms->first();
